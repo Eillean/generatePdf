@@ -25,7 +25,7 @@ public class GeneratePDF {
     private static final String STAMPER = "stamper_result.pdf";
     /*生成的水印文件*/
     public static final String WATERMARK = "watermark_result.pdf";
-    /**/
+    /*印章图片*/
     public static final String STAMPER_IMG = "stamper.png";
 
     private static Configuration freemarkerCfg = new Configuration();;
@@ -33,7 +33,6 @@ public class GeneratePDF {
     public static String matchDataToHtml(Map<String, Object> data, String htmlTmp) {
         Writer out = new StringWriter();
         try {
-
             // HTML头部内容写入out流
             out.write("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"/><title>Title</title><style>body {font-family: SimHei;font-size: 14px;line-height: 150%;}td {height: 25px;}</style></head><body>\n");
 
@@ -64,7 +63,6 @@ public class GeneratePDF {
 
     public static void createPdf(String content) {
         try {
-
             ITextRenderer render = new ITextRenderer();
             ITextFontResolver fontResolver = render.getFontResolver();
             // 使用资源字体
