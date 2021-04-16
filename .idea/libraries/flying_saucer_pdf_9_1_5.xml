@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="flying-saucer-pdf-9.1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/flying-saucer-pdf-9.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker-2.3.27-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/itextpdf-5.5.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/flying-saucer-pdf-9.1.5.jar!/" />
+    </SOURCES>
+  </library>
+</component>
